@@ -89,7 +89,7 @@ like this:
 ## New Scope functions
 
 We realized how annoying it is to set a whole object using `setExtra`, that's why there are now a few new methods on the
-`Scope`.
+`Scope`
 
 ```typescript
 setTags(tags: { [key: string]: string }): this;
@@ -339,7 +339,7 @@ Sentry.init({
 
 ### Attaching Stacktraces
 
-> 'stacktrace' was renamed to 'attackStacktrace'. [Docs](https://docs.sentry.io/error-reporting/configuration/?platform=browser#attach-stacktrace)
+> 'stacktrace' was renamed to 'attachStacktrace'. [Docs](https://docs.sentry.io/error-reporting/configuration/?platform=browser#attach-stacktrace)
 
 _Old_:
 
